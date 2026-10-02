@@ -1,15 +1,16 @@
-// Reverse a given number & print thr result
+// Reverse a given number & print thi result.
 #include <iostream>
 using namespace std;
 int main(){
-    int N = 10829;
-    int lastDig;
+
+    int n = 10829;
     int res = 0;
-    while(N>0){
-        lastDig = N % 10;
+    while (n>0){
+        int lastDig = n % 10;
         res = res * 10 + lastDig;
-        N = N /10;
-    }
-    cout<<"Reverse "<<res <<endl;
+        n = n / 10;
+       }
+       cout<<"Reverse number is = "<<res <<endl;
+    
     return 0;
 }
