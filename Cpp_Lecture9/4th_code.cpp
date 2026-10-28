@@ -1,4 +1,4 @@
-//Max Subarray Sum->(Kadane's Algorithm DP)     [ TC = O(n) ]
+//Max Subarray Sum->(Kadane's Algorithm [DP-Dynamic Programming]) [ TC = O(n) ]
 #include <iostream>
 using namespace std;
 void maxSubArraySum(int *arr, int n){

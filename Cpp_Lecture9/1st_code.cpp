@@ -1,4 +1,4 @@
-//Subarray-> is continuous part of an array.
+//Subarray-> is continuous part of an array.   [ TC = O(n^3) ]
 #include <iostream>
 using namespace std;
 void printSubArray(int *arr,int n){
