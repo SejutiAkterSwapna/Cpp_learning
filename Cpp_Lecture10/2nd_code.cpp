@@ -10,6 +10,7 @@ void printSort(int arr[], int n){
 void selectionSort_1(int *arr, int n){ //Ascending
     for(int i=0; i<n-1; i++){
         int minInt = i;
+        //Loop for find min.
         for(int j=i+1; j<n; j++){
             if(arr[j] > arr[minInt]){
                 minInt = j;
