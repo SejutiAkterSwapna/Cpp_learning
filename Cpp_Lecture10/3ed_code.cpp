@@ -9,7 +9,7 @@ void printSort(int arr[], int n){
 }
 void insertionSort_1(int *arr, int n){//Ascending
 
-    for(int i=0; i<n; i++){
+    for(int i=1; i<n; i++){
         int curr = arr[i];
         int prev = i-1;
         while(prev>=0 && arr[prev] > curr){
@@ -24,7 +24,7 @@ void insertionSort_1(int *arr, int n){//Ascending
 
 void insertionSort_2(int *arr, int n){//Descending
 
-    for(int i=0; i<n; i++){
+    for(int i=1; i<n; i++){
         int curr = arr[i];
         int prev = i-1;
         while(prev>=0 && arr[prev] < curr){
